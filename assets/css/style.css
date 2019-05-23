@@ -31,6 +31,13 @@ html{
   transform: translate(-50%, -50%);
   pointer-events: none;
 }
+.btn{
+  margin-left: 40%;
+  pointer-events: all;
+  background-color: black;
+  border: none;
+}
+
 
 .mainContent{
   background-color: white;
@@ -52,6 +59,8 @@ html{
 .bio {
   text-align: left !important;
 }
+
+
 .trackYoSelf{
   background-image: url("../images/trackYoSelf.png");
   background-size: 100% 100%;
