@@ -58,8 +58,8 @@ html{
   overflow: auto;
   /* margin-right: 2%;
   margin-top: 2%;
-  margin-bottom: 2%;
-  float: left; */
+  margin-bottom: 2%; */
+  
 }
 .memoryGame{
   background-image: url("../images/soccer Memory game.png");
@@ -70,8 +70,8 @@ html{
   overflow: auto;
   /* margin-right: 2%;
   margin-top: 2%;
-  margin-bottom: 2%;
-  float: left; */
+  margin-bottom: 2%; */
+  
 }
 
 .daBurger{
@@ -83,8 +83,7 @@ html{
     overflow: auto;
     /* margin-right: 2%;
     margin-top: 2%;
-    margin-bottom: 2%;
-    float: left; */
+    margin-bottom: 2%; */
 }
 
 #pic1{
@@ -105,11 +104,11 @@ html{
 .portfolioContainer{
   pointer-events: none;
   cursor: default;
+  align-content: center;
 }
 
 .portfolioCards {
  columns: 3;
- align-content: center;
  margin: 2% 2% 2% 10%;
 }
 
@@ -183,12 +182,25 @@ h3{
     column-count: 2;
     align-content: center;
   }
+  .trackYoSelf {
+    margin-bottom: 2%;
+  }
+
+  .daBurger {
+    margin-top: 2%;
+  }
 
 }
 
 @media(max-width: 530px){
+  .navbar-toggler{
+    margin-left:60%;
+  }
   .portfolioCards {
     column-count: 1;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 25%;
     align-content: center;
   }
 }
