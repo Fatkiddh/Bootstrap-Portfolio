@@ -5,76 +5,66 @@
     <title>Ryan Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
 
   <body>
     <!-- nav bar link to 3 different pages -->
 
-        <div class="navBarContainer">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="index.html">Ryan Evans</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-item nav-link active" href="index.html">About me | <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="contact.html">Contact |</a>
-                  <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand">Ryan Evans</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="index.html">Home | <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="about.html">About Me |</a>
+              <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+              <a href="https://www.linkedin.com/feed/" ><img src="assets/images/linkedin-24x24.png">
+              <a href="https://github.com/Fatkiddh"><img src="assets/images/github.png">
+            </div>
+          </div>
+          <div class="contacts">
+            <a href="https://www.linkedin.com/feed/" ><img src="assets/images/linkedin-24x24.png">
+            <a href="https://github.com/Fatkiddh"><img src="assets/images/github.png">
+          </div>
+      </nav>
+  
+        <div class="portfolioContainer">
+          <!--title of container-->
+            <h2 class="portfolioTitle">Portfolio</h2>
+            <hr>
+            <div class="portfolioCards">
+              <div class="trackYoSelf">
+                <div class="insidePortfolioDeminsions">
+                  <h3>
+                    <a class="track-Yo-Self" href="https://track-yo-self.herokuapp.com/">track yo self </a>
+                  </h3>
                 </div>
               </div>
-           </nav>
-        </div>
-
-
-        <div class="portfolioContainer">
-
-          <!--title of container-->
-            <h2 class="aboutMe">Portfolio</h2>
-            <hr>
-
-            <div class="trackYoSelf">
-
-              <div class="insidePortfolioDeminsions">
-                <h3>
-                    <a class="track-Yo-Self" href="https://track-yo-self.herokuapp.com/">track-yo-self </a>
-                </h3>
+              
+              <div class="memoryGame">
+                <div class="insidePortfolioDeminsions">
+                  <h3>
+                    <a class="soccerMemoryGame" href="https://fatkiddh.github.io/Clicky-Games/">Memory game </a>
+                  </h3>
+                </div>
               </div>
-            </div>
-
-            <div class="memoryGame">
-
-              <div class="insidePortfolioDeminsions">
-                <h3>
-                    <a class="soccerMemoryGame" href=https://fatkiddh.github.io/Clicky-Games/>Memory game </a>
-                </h3>
+              
+              <div class="daBurger">
+                <div class="insidePortfolioDeminsions">
+                  <h3>
+                    <a class="eatDaBurger" href="https://murmuring-wildwood-87335.herokuapp.com/">Eat Da Burger </a>
+                  </h3>
+                </div>
               </div>
+              
             </div>
-
-            <div class="daBurger">
-
-              <div class="insidePortfolioDeminsions">
-                <h3>
-                  <a class="nav-item nav-link" href="https://murmuring-wildwood-87335.herokuapp.com/">Eat Da Burger </a>
-                </h3>
-              </div>
-            </div>
-
           </div>
-
-
-
-        <div class="contactContainer" id="sidebar">
-          <div class="col-sm">
-            <h2>Contact Me<h2>
-              <a href="https://github.com/Fatkiddh"><img src="assets/images/github-32x32.png">
-              <a href="https://www.linkedin.com/feed/"><img src="assets/images/linkedin-24x24.png">
-          </div>
-        </div>
 
           <div class="footer">
             <footer class="footer">Ryan Evans Copyright  &copy;2019
