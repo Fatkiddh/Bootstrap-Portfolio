@@ -44,11 +44,14 @@ html{
   overflow: hidden;
   word-wrap: normal;
 }
+
 .mainContent a:nth-child(1) {
   pointer-events: none;
   cursor: default;
 }
-
+.bio {
+  text-align: left !important;
+}
 .trackYoSelf{
   background-image: url("../images/trackYoSelf.png");
   background-size: 100% 100%;
